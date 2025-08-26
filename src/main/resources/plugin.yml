@@ -1,0 +1,12 @@
+name: prayerReminder
+version: '1.0-SNAPSHOT'
+main: me.yacine.prayerReminder.PrayerReminder
+api-version: '1.21'
+
+commands:
+  setlocation:
+    description: Set the latitude and longitude for prayer times
+    usage: /<command> <latitude> <longitude>
+  getlocation:
+    description: Get the current latitude and longitude
+    usage: /<command>
